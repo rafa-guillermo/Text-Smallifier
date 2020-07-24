@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Text Smallify",
+  "version": "1",
+  "description": "Make your text small!",
+  "icons": {
+     "128": "arrow.png"
+   },
+  "browser_action": {
+    "default_icon": "arrow.png",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-7xh8OZhVhVHRb1uiAAfN7Mo8ATsNIZQb+Zt4G+dfJo0='; object-src 'self'"
+}
