@@ -1,0 +1,13 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+textarea {
+  width: 200px;
+}
+textarea#input {
+  margin-top: -3px
+}
+textarea#output {
+  margin-top: 3px
+}
